@@ -9,7 +9,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <druid.version>1.0.25</druid.version>
+        <druid.version>1.0.27</druid.version>
         <jdk.version>1.8</jdk.version>
         <spring.version>4.3.2.RELEASE</spring.version>
         <mysql.version>5.1.38</mysql.version>
@@ -89,10 +89,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-        </dependency>
         <!--spring end-->
 
         <!--Spring AOP依赖-->
@@ -158,6 +154,13 @@
             <version>5.21.0</version>
         </dependency>
         <!--activiti end-->
+
+        <!--nutz-->
+        <dependency>
+            <groupId>org.nutz</groupId>
+            <artifactId>nutz</artifactId>
+            <version>1.r.59</version>
+        </dependency>
 
     </dependencies>
     <build>

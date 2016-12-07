@@ -18,7 +18,7 @@
       ">
 
     <!--扫描包,把注解配置的bean注册进Ioc容器-->
-    <context:component-scan base-package="cn.zjc">
+    <context:component-scan base-package="org.throwable">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
