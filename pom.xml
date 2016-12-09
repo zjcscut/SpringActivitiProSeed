@@ -162,6 +162,13 @@
             <version>1.r.59</version>
         </dependency>
 
+        <!--groovy-all-->
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.7</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>spring-activiti</finalName>
